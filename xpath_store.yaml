@@ -1,0 +1,53 @@
+xpaths:
+  - path: '(//span[@class="c-PJLV c-jaFKlk c-PJLV-ibdakYG-css"])[2]'
+    description: "获取CASH金额"
+    content: ''  # 用于存储上次匹配的内容
+  - path: '(//span[@class="c-PJLV c-jaFKlk c-PJLV-ibdakYG-css"])[1]' 
+    description: "获取PORTFOLIO金额"
+    content: '' 
+  - path: '//*[@id="event-layout-with-side-nav"]/div[2]/div/div[1]/div/div[1]/div/div/div[1]' 
+    description: "buy"
+    content: '' 
+  - path: '//*[@id="event-layout-with-side-nav"]/div[2]/div/div[1]/div/div[1]/div/div/div[2]' 
+    description: "sell"
+    content: '' 
+  - path: '(//span[@class="c-bjtUDd c-bjtUDd-ijxkYfH-css"])[1]' 
+    description: "Yes价格"
+    content: '' 
+  - path: '(//span[@class="c-bjtUDd c-bjtUDd-ijxkYfH-css"])[2]' 
+    description: "No价格"
+    content: '' 
+  - path: '//div[@class="c-dhzjXW c-dhzjXW-ihxUIch-css"]//button' 
+    description: "Buy-买入按钮"
+    content: '' 
+  - path: '//div[@class="c-dhzjXW c-dhzjXW-ihxUIch-css"]//button' 
+    description: "Sell-卖出按钮"
+    content: '' 
+  - path: '//*[@id="event-layout-with-side-nav"]/div[2]/div/div[1]/div/div[2]/div[2]/div[2]/input' 
+    description: "Amount-输入框"
+    content: '' 
+  - path: '//*[@id="event-layout-with-side-nav"]/div[2]/div/div[1]/div/div[2]/div[1]/div[2]/div/div[1]/div' 
+    description: "Buy-Yes-按钮"
+    content: '' 
+  - path: '//*[@id="event-layout-with-side-nav"]/div[2]/div/div[1]/div/div[2]/div[1]/div[2]/div/div[2]/div' 
+    description: "Buy-No-按钮"
+    content: "" 
+  - path: '//*[@id="event-layout-with-side-nav"]/div[2]/div/div[1]/div/div[2]/div[1]/div[2]/div[1]/div[1]/div' 
+    description: "Sell-Yes-按钮"
+    content: '' 
+  - path: '//*[@id="event-layout-with-side-nav"]/div[2]/div/div[1]/div/div[2]/div[1]/div[2]/div[1]/div[2]/div' 
+    description: "Sell-No-按钮"
+    content: '' 
+  - path: '//*[@id="event-layout-with-side-nav"]/div[1]/div/div/div[2]/div/div[2]/div/div[2]/table/tbody/tr[1]/td[6]/div/button' 
+    description: "Positions-Sell-Yes-按钮"
+    content: '' 
+  - path: '//*[@id="event-layout-with-side-nav"]/div[1]/div/div/div[2]/div/div[2]/div/div[2]/table/tbody/tr[2]/td[6]/div/button' 
+    description: "Positions-Sell-No-按钮"
+    content: '' 
+  - path: '//tbody/tr[@class="c-bVbKdS c-bVbKdS-ihoZIKi-css" and .//text()="No"]' 
+    description: "positions-NO的标签"
+    content: '' 
+  - path: '//tbody/tr[@class="c-bVbKdS c-bVbKdS-ihoZIKi-css" and .//text()="Yes"]' 
+    description: "positions-YES的标签"
+    content: '' 
+  
